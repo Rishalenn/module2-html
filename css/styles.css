@@ -1,0 +1,89 @@
+/* Background Color */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Center layout */
+main, header, footer {
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Section Cards */
+.card {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Header Style */
+.header-card {
+    background: #a7c0d2;
+    color: rgb(60, 52, 52);
+    text-align: center;
+}
+
+/* Profile Image */
+.profile {
+    width: 120px;
+    border-radius: 50%;
+    display: block;
+    margin: 10px auto;
+}
+
+/* Styled Links */
+a {
+    color: #7db2d7;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Formatted Tables */
+table {
+    margin: 20px auto;   /* This centers the table */
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+h2 {
+    text-align: center;
+}
+
+/* Styled Form */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input, textarea {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px;
+    background-color: #0077cc;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005fa3;
+}
+
+/* Footer *
